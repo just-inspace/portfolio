@@ -2,6 +2,9 @@
 
 This project is meant to display both my past projects and a culmination of what I've learned on the path to becoming a developer.
 
+## Trello Board
+https://trello.com/b/gifxSA6O/portfolio-project
+
 ### Project Rough Deliverables
 
 -   Showcase portfolio projects highlighted on Github
@@ -15,3 +18,8 @@ This project is meant to display both my past projects and a culmination of what
 -   Express/Node Back End
 -   Connect to GitHub API
 -   RESTful API
+
+### Questions to Answer
+
+- Project hosting location. Self host. Serve external to application
+- Single Page App
