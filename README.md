@@ -23,3 +23,4 @@ https://trello.com/b/gifxSA6O/portfolio-project
 
 - Project hosting location. Self host. Serve external to application
 - Single Page App
+- Overall site style? Maybe a blueprint theme?
