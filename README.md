@@ -3,7 +3,9 @@
 This project is meant to display both my past projects and a culmination of what I've learned on the path to becoming a developer.
 
 ## Trello Board
-https://trello.com/b/gifxSA6O/portfolio-project
+
+Project Brainstorming: https://trello.com/b/gifxSA6O/portfolio-project
+Project Scrum Board: https://trello.com/b/WsnuRY7m/portfolio-scrum
 
 ### Project Rough Deliverables
 
@@ -21,6 +23,6 @@ https://trello.com/b/gifxSA6O/portfolio-project
 
 ### Questions to Answer
 
-- Project hosting location. Self host. Serve external to application
-- Single Page App
-- Overall site style? Maybe a blueprint theme?
+-   Project hosting location. Self host. Serve external to application
+-   Single Page App
+-   Overall site style? Maybe a blueprint theme?
