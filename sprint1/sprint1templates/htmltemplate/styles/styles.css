@@ -1,60 +1,77 @@
 * {
-  margin: 0;
-  padding: 0; }
+	margin: 0;
+	padding: 0;
+}
 
 #navbar {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  height: 100vh;
-  width: 40%;
-  background-image: url(../images/cool-blueprint.png);
-  background-position: top right;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center; }
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100vh;
+	width: 20%;
+	background-image: url(../images/cool-blueprint.png);
+	background-position: top right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
 
 #navbar-control {
-  width: 20px;
-  height: 20px;
-  background-color: rgba(0, 0, 0, 0);
-  margin-right: 5%;
-  border-right: 3px solid black;
-  border-top: 3px solid black;
-  border-bottom: none;
-  border-left: none;
-  transform: rotate(45deg); }
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0, 0, 0, 0);
+	margin-right: 5%;
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+	border-bottom: none;
+	border-left: none;
+	transform: rotate(45deg);
+}
 
 #navbar-control:active,
 #navbar-control:hover,
 #navbar-control:visited,
 #navbar-control:focus {
-  outline: none; }
+	outline: none;
+}
 
 #links {
-  display: flex;
-  flex-direction: column;
-  margin-right: 40%;
-  align-items: center; }
+	display: flex;
+	flex-direction: column;
+	margin-right: 40%;
+	align-items: center;
+}
 
 #page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10%;
-  width: 90%;
-  height: 100vh;
-  background-image: url(../images/blueprintsm.jpg);
-  background-repeat: repeat;
-  color: white;
-  z-index: 200; }
+	margin-left: 20%;
+	width: 80%;
+	height: 100vh;
+	background-image: url(../images/blueprintsm.jpg);
+	background-repeat: repeat;
+	color: white;
+	z-index: 200;
+}
 
 #divider {
-  width: 100%;
-  height: 10px;
-  background-color: white; }
+	width: 100%;
+	height: 10px;
+	background-color: white;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 500px);
+	grid-gap: 20px;
+	justify-items: center;
+	align-items: center;
+}
+
+.project {
+	width: 200px;
+	height: 400px;
+	background-color: black;
+}

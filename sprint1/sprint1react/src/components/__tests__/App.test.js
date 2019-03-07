@@ -1,5 +1,5 @@
-import { shallow, mount, render } from "enzyme";
-import App from "../../App.js";
+import { shallow } from "enzyme";
+import App from "../App.js";
 import React from "react";
 
 describe("App", () => {
@@ -7,4 +7,16 @@ describe("App", () => {
 		const wrapper = shallow(<App />);
 		expect(wrapper).toMatchSnapshot();
 	});
+});
+
+it("renders App with SidebarContainer", () => {
+	const wrapper = shallow(<App />);
+
+	expect(wrapper.find(SidebarContainer).length).toEqual(1);
+});
+
+it("renders App with PageRouter", () => {
+	const wrapper = shallow(<App />);
+
+	expect(wrapper.find(PageContainer).length).toEqual(1);
 });

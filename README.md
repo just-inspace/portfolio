@@ -4,7 +4,6 @@ This project is meant to display both my past projects and a culmination of what
 
 ## Trello Board
 
-Project Brainstorming: https://trello.com/b/gifxSA6O/portfolio-project
 Project Scrum Board: https://trello.com/b/WsnuRY7m/portfolio-scrum
 
 ### Project Rough Deliverables
@@ -12,17 +11,14 @@ Project Scrum Board: https://trello.com/b/WsnuRY7m/portfolio-scrum
 -   Showcase portfolio projects highlighted on Github
 -   Clearly link to projects and the source code
 -   Web-based resume page with downloadable pdf resume
--   Maybe some site analytics page?
 
 ### Project Rough Requirements
 
--   React + Redux Front End
--   Express/Node Back End
--   Connect to GitHub API
--   RESTful API
+-   React Front End
+-   React Router for SPA
+-   React Spring for Animations
+-   Jest/Enzyme for Unit Testing
 
 ### Questions to Answer
 
--   Project hosting location. Self host. Serve external to application
--   Single Page App
--   Overall site style? Maybe a blueprint theme?
+-   Project hosting location. Self host. Serve external to application (netlify?)
